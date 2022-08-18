@@ -1,0 +1,53 @@
+<!--
+ * @Author: sectum1919 1048186774@qq.com
+ * @Date: 2022-08-17 17:44:14
+ * @LastEditors: sectum1919 1048186774@qq.com
+ * @LastEditTime: 2022-08-18 11:43:36
+ * @Description: 
+ * 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSLT Webpage Template</title>
+    <link href="/static/css/common_style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo"></div>
+        <div class="header-text">
+            <p style="font-size:32px;font-family:'微软雅黑','黑体';color: #ffffff;">语音和语言技术团队(CSLT)</p>
+            <p style="font-size:20px;font-family:'微软雅黑','黑体';color: #ffffff;">北京信息科学与技术国家研究中心 · 清华大学 BNRist · Tsinghua
+                University</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <h1 id="welcome">Welcome to CSLT Webpage Template, {{username}}!</h1>
+            <p>请点击下面按钮跳转到相应的Demo页面</p>
+            <h2>Redirection to file uploader demo</h2>
+            <button onclick="window.location.href='/upload'" style="width:200px; height:50px">Uploader</button>
+            <h2>Redirection to empty page demo</h2>
+            <button onclick="window.location.href='/empty'" style="width:200px; height:50px">empty page</button>
+            <h2>Redirection to login demo</h2>
+            <button onclick="window.location.href='/login'" style="width:200px; height:50px">login</button>
+            <h2>Redirection to register demo</h2>
+            <button onclick="window.location.href='/register'" style="width:200px; height:50px">register</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            <p> ©2022 清华大学信息国家研究中心语音和语言技术团队</p>
+            <p> 地址:北京市海淀区清华大学FIT楼1-303房间</p>
+            <p> 电话/传真:010-62796589 邮编:100084 E-mail:cslt@mail.tsinghua.edu.cn</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        // 把username存起来
+        username = "{{username}}"
+    </script>
+</body>
+
+</html>

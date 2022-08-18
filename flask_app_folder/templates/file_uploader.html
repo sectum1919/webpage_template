@@ -1,0 +1,78 @@
+<!--
+ * @Author: sectum1919 1048186774@qq.com
+ * @Date: 2022-08-17 17:44:14
+ * @LastEditors: sectum1919 1048186774@qq.com
+ * @LastEditTime: 2022-08-18 11:43:36
+ * @Description: 
+ * 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Uploader Demo-CSLT Webpage Template</title>
+    <!-- import css -->
+    <link href="/static/css/common_style.css" rel="stylesheet" media="screen">
+    <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
+    <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.min.css"
+        rel="stylesheet">
+    <link href="https://unpkg.com/filepond-plugin-media-preview/dist/filepond-plugin-media-preview.min.css"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo"></div>
+        <div class="header-text">
+            <p style="font-size:32px;font-family:'微软雅黑','黑体';color: #ffffff;">语音和语言技术团队(CSLT)</p>
+            <p style="font-size:20px;font-family:'微软雅黑','黑体';color: #ffffff;">北京信息科学与技术国家研究中心 · 清华大学 BNRist · Tsinghua
+                University</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div>
+                <h3>Back to Index</h3>
+                <button onclick="window.location.href='/'" style="width:200px; height:50px">Return</button>
+            </div>
+            <div>
+                <h2>Image uploader (Forbid Browse)</h2>
+                <input id="image_uploader" type="file" class="filepond" name="filepond">
+            </div>
+            <div>
+                <h2>Image uploader (Allow Browse)</h2>
+                <input id="image_uploader_browse" type="file" class="filepond" name="filepond">
+            </div>
+            <div>
+                <h2>Audio uploader</h2>
+                <input id="audio_uploader" type="file" class="filepond" name="filepond">
+            </div>
+            <div>
+                <h2>Video uploader</h2>
+                <input id="video_uploader" type="file" class="filepond" name="filepond">
+            </div>
+        </div>
+    </div>
+    </main-content>
+    <div class="footer">
+        <div class="footer-text">
+            <p> ©2022 清华大学信息国家研究中心语音和语言技术团队</p>
+            <p> 地址:北京市海淀区清华大学FIT楼1-303房间</p>
+            <p> 电话/传真:010-62796589 邮编:100084 E-mail:cslt@mail.tsinghua.edu.cn</p>
+        </div>
+    </div>
+    <!-- import javascripts -->
+    <!-- filepond javascripts -->
+    <script
+        src="https://unpkg.com/filepond-plugin-file-validate-type/dist/filepond-plugin-file-validate-type.js"></script>
+    <script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
+    <script src="https://unpkg.com/filepond-plugin-media-preview/dist/filepond-plugin-media-preview.js"></script>
+    <script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+    <!-- jquery javascripts -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- our javascripts -->
+    <script src="static/js/file_uploader.js">
+    </script>
+</body>
+
+</html>

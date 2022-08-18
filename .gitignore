@@ -1,0 +1,3 @@
+flask_app_folder/static/media/audio/*.wav
+flask_app_folder/static/media/video/*.mp4
+flask_app_folder/static/media/image/*.png
