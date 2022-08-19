@@ -37,11 +37,13 @@ flex: flex-grow flex-shrink flex-basis
     margin: 10px;
     line-height: 5px;
     padding: 10px;
+    font-family: '微软雅黑', '黑体';
+    color: #ffffff;
 }
 
 .content {
-    width: 100%;
     flex: 1 0 auto;
+    width: 100%;
 }
 
 .container {
@@ -55,7 +57,15 @@ flex: flex-grow flex-shrink flex-basis
 .footer-text {
     text-align: center;
     color: black;
+}
+
+.footer p {
     font-family: arial;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 5px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
 }

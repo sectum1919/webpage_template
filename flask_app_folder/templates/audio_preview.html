@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Audio Preview Demo-CSLT Webpage Template</title>
+    <link href="/static/css/common_style.css" rel="stylesheet" media="screen">
+    <link href="/static/css/preview_style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo"></div>
+        <div class="header-text">
+            <p style="font-size:32px;">语音和语言技术团队(CSLT)</p>
+            <p style="font-size:20px;">北京信息科学与技术国家研究中心 · 清华大学 BNRist · Tsinghua University</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div>
+                <h3>Back to Index</h3>
+                <button onclick="window.location.href='/'" style="width:200px; height:50px">Return</button>
+            </div>
+            <h1>Audio Preview Demo</h1>
+            <!-- put things here -->
+            <div>
+                <audioPreviewContainer style="width:100%">
+                    <p class="description"> Audio Preview Container </p>
+                    <div class="groupContainer">
+                        <p class="description"> Group Container Description 1</p>
+                        <div class="uttContainer">
+                            <p class="description"> utt description 1 </p>
+                            <div class="uttWithSpect">
+                                <img src="/static/media/image/rec.png">
+                                <audio controls src="/static/media/audio/rec.wav"></audio>
+                            </div>
+                        </div>
+                        <div class="uttContainer">
+                            <p class="description"> rec 2 </p>
+                            <div class="uttWithSpect">
+                                <img src="/static/media/image/rec.png">
+                                <audio controls src="/static/media/audio/rec.wav"></audio>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="groupContainer">
+                        <p class="description"> Group Container Description 2</p>
+                        <div class="uttContainer">
+                            <p class="description"> rec 1 </p>
+                            <div class="uttWithSpect">
+                                <img src="/static/media/image/rec.png">
+                                <audio controls src="/static/media/audio/rec.wav"></audio>
+                            </div>
+                        </div>
+                        <div class="uttContainer">
+                            <p class="description"> rec 2 </p>
+                            <div class="uttWithSpect">
+                                <img src="/static/media/image/rec.png">
+                                <audio controls src="/static/media/audio/rec.wav"></audio>
+                            </div>
+                        </div>
+                        <div class="uttContainer">
+                            <p class="description"> rec 3 </p>
+                            <div class="uttWithSpect">
+                                <img src="/static/media/image/rec.png">
+                                <audio controls src="/static/media/audio/rec.wav"></audio>
+                            </div>
+                        </div>
+                    </div>
+                </audioPreviewContainer>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            <p> ©2022 清华大学信息国家研究中心语音和语言技术团队</p>
+            <p> 地址:北京市海淀区清华大学FIT楼1-303房间</p>
+            <p> 电话/传真:010-62796589 邮编:100084 E-mail:cslt@mail.tsinghua.edu.cn</p>
+        </div>
+    </div>
+</body>
+
+</html>

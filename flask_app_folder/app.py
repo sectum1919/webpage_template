@@ -149,6 +149,10 @@ def upload_index():
 @app.route('/empty', methods=['GET', 'POST'])
 def empty_page():
     return render_template("empty_page.html")
+# audio preview page
+@app.route('/audio_preview', methods=['GET', 'POST'])
+def audio_preview():
+    return render_template("audio_preview.html")
 # index page
 @app.route('/', methods=['GET', 'POST'])
 def index():

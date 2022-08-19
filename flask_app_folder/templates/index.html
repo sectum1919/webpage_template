@@ -18,23 +18,26 @@
     <div class="header">
         <div class="header-logo"></div>
         <div class="header-text">
-            <p style="font-size:32px;font-family:'微软雅黑','黑体';color: #ffffff;">语音和语言技术团队(CSLT)</p>
-            <p style="font-size:20px;font-family:'微软雅黑','黑体';color: #ffffff;">北京信息科学与技术国家研究中心 · 清华大学 BNRist · Tsinghua
-                University</p>
+            <p style="font-size:32px;">语音和语言技术团队(CSLT)</p>
+            <p style="font-size:20px;">北京信息科学与技术国家研究中心 · 清华大学 BNRist · Tsinghua University</p>
         </div>
     </div>
     <div class="content">
         <div class="container">
             <h1 id="welcome">Welcome to CSLT Webpage Template, {{username}}!</h1>
             <p>请点击下面按钮跳转到相应的Demo页面</p>
-            <h2>Redirection to file uploader demo</h2>
-            <button onclick="window.location.href='/upload'" style="width:200px; height:50px">Uploader</button>
-            <h2>Redirection to empty page demo</h2>
-            <button onclick="window.location.href='/empty'" style="width:200px; height:50px">empty page</button>
-            <h2>Redirection to login demo</h2>
-            <button onclick="window.location.href='/login'" style="width:200px; height:50px">login</button>
-            <h2>Redirection to register demo</h2>
-            <button onclick="window.location.href='/register'" style="width:200px; height:50px">register</button>
+            <div>
+                <p style="font-size:20px"> file uploader </p>
+                <button onclick="window.location.href='/upload'">Uploader</button>
+                <p style="font-size:20px"> empty page </p>
+                <button onclick="window.location.href='/empty'">empty page</button>
+                <p style="font-size:20px"> login </p>
+                <button onclick="window.location.href='/login'">login</button>
+                <p style="font-size:20px"> register </p>
+                <button onclick="window.location.href='/register'">register</button>
+                <p style="font-size:20px"> audio preview </p>
+                <button onclick="window.location.href='/audio_preview'"> audio preview </button>
+            </div>
         </div>
     </div>
     <div class="footer">
